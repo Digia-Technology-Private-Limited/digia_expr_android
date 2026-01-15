@@ -1,4 +1,12 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    alias(libs.plugins.kotlin.jvm) apply false
+    kotlin("jvm")
+    id("maven-publish") // <--- Add this
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"]) // Uses the Java component
+        }
+    }
 }

@@ -1,0 +1,2 @@
+jdk:
+  - openjdk17 # or openjdk21 if you use the absolute latest

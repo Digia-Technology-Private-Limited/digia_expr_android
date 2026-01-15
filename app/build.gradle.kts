@@ -51,7 +51,7 @@ publishing {
             pom {
                 name.set("Digia Expression Evaluator")
                 description.set("A pure Kotlin expression evaluation library")
-                url.set("https://github.com/Digia-Technology-Private-Limited/digia_expr_android")
+                url.set("https://github.com/Digia-Technology-Private-Limited/digia_expr_kt")
             }
         }
     }
